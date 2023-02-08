@@ -1,0 +1,98 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Mukta', sans-serif;
+  background-image: url("images/OIP.jpeg");
+}
+
+.container {
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  max-width: 50%;
+  margin: 20px auto;
+  padding: 35px;
+  border-radius: 3px;
+}
+
+h1 {
+  color: #00CECB;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  color: #FF5E5B;
+  margin: 0 20px 20px 0;
+}
+
+img {
+  width: 170px;
+  border-radius: 3px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.description {
+  margin: 20px 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+#pigeons-movie {
+  color: #FF5E5B;
+  border: 1px solid #FF5E5B;
+  border-radius: 10px;
+  padding: 5px 17px;
+  display: inline-block;
+}
+
+#pigeons-movie:hover {
+  color: white;
+  background-color: #FF5E5B;
+}
+
+#socials {
+  color: #00CECB;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+ul {
+  list-style-type: null;
+  padding-left: 0;
+  margin: 0;
+}
+
+.fa-brands {
+  color: black;
+  font-size: 25px;
+}
+
+.icon {
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  width: 30px;
+  padding: 0px 5px;
+}
